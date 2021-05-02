@@ -1,0 +1,166 @@
+@font-face {
+  font-family: "cafe";
+  src: url("Cafe24Simplehae.ttf");
+}
+
+@font-face {
+  font-family: "yangjin";
+  src: url("양진체v0.9_ttf.ttf");
+}
+
+body {
+  background-color: aliceblue;
+  height: 2400px;
+}
+
+.nav-title {
+  font-family: yangjin;
+  font-size: 26px;
+  text-align: center;
+}
+
+.jumbotron {
+  font-family: cafe;
+  font-weight: bold;
+  height: 400px;
+  padding: 30px;
+  background-image: url("banner.png");
+  background-size: cover;
+}
+
+#myprofile {
+  margin: 10px;
+  margin-top: 80px;
+  text-align: start;
+  font-style: normal;
+}
+
+#myprofile img {
+  border: 2px solid aliceblue;
+  width: 140px;
+  height: 180px;
+}
+
+.card {
+  margin: 10px;
+  font-family: cafe;
+}
+
+.card-img-top {
+  width: 286px;
+  height: 180px;
+}
+
+#myinfo {
+  font-family: cafe;
+  margin: 10px;
+  margin-top: 30px;
+  background-color: rgba(73, 73, 221, 0.842);
+  color: white;
+  text-align: center;
+}
+
+#mycontents {
+  position: absolute;
+  left: 50%;
+  margin-left: -640px;
+}
+
+#myinterests {
+  font-family: cafe;
+  margin-top: 470px;
+  width: 1240px;
+}
+
+#myinterests li {
+  width: 286px;
+  height: 500px;
+  float: left;
+  margin-left: 30px;
+  font-weight: bold;
+}
+
+#v-pills-home img {
+  width: 230px;
+  height: 350px;
+}
+
+#v-pills-profile img {
+  width: 230px;
+  height: 230px;
+}
+
+#v-pills-messages img {
+  border: 1px solid black;
+  width: 230px;
+  height: 350px;
+}
+
+#myinterests .d-flex {
+  position: absolute;
+  left: 2%;
+}
+
+#mylife {
+  font-family: cafe;
+  width: 1240px;
+  margin-top: 470px;
+}
+
+#life {
+  font-family: cafe;
+  margin: 10px;
+  margin-top: 30px;
+  background-color: rgba(73, 73, 221, 0.842);
+  color: white;
+  text-align: center;
+}
+
+#mylife table {
+  margin: 10px;
+  margin-right: 40px;
+  border: 3px dashed rgba(73, 73, 221, 0.842);
+  width: 600px;
+  height: 220px;
+  text-align: center;
+}
+
+#myrest {
+  margin-top: 10px;
+  width: 580px;
+  text-align: center;
+}
+
+#rest-list div {
+  float: left;
+  margin-right: 12px;
+  height: 180px;
+  width: 180px;
+
+  line-height: 180px;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+#rest {
+  font-family: cafe;
+
+  background-color: rgba(73, 73, 221, 0.842);
+  color: white;
+  text-align: center;
+}
+
+#rest1 {
+  background-image: url("game.png");
+  background-size: cover;
+}
+
+#rest2 {
+  background-image: url("cinema.png");
+  background-size: cover;
+}
+
+#rest3 {
+  background-image: url("fitness.png");
+  background-size: cover;
+}
